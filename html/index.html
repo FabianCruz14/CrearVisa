@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VisaFlate</title>
+    <title>Reserva de Citas</title>
+    <link rel="stylesheet" href="/html/css/styles.css">
+    
 </head>
 <body>
-    <h1>Pagina para hacer citas de para la solicitud de visa americana </h1>
+    <form class="formulario" action="">
+    
+    <div class="title">
+        <b>AGENDA TU SOLICITUD DE VISA</b>
+    </div>
+
+    <div class="container">
+        <label for="nombre">Nombre: </label><br>
+        <input type="text" placeholder="Tal como aparece en el pasaporte" name="nombre">
+    </div>
+
+    <div class="container">
+        <label for="apPaterno">Apellido Paterno: </label><br>
+        <input type="text" placeholder="Tal como aparece en el pasaporte" name="apPaterno" id="apPaterno">
+    </div>
+
+    <div class="container">
+        <label for="apMaterno">Apellido Materno: </label><br>
+        <input type="text" placeholder="Tal como aparece en el pasaporte" name="apMaterno" id="apMaterno">
+    </div>
+
+    <div class="container">
+        <label for="sexo">Sexo: </label> <br>
+        <input type="radio" name="sexo" id="sexo">Masculino
+        <input type="radio" name="sexo" id="sexo">Femenino 
+        <input type="radio" name="sexo" id="sexo">No Binario
+    </div>
+    
+    </form>
 </body>
 </html>
+
+
